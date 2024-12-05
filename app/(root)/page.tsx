@@ -1,10 +1,8 @@
-import Hello from "../components/hello";
 
 export default function Home() {
   return (
     <>
-    <h1>Welcome to pivotpoint</h1>
-    <Hello/>
+    <h1 className="text-2xl">Home</h1>
     </>
   );
 }
