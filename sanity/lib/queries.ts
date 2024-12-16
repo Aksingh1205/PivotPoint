@@ -30,3 +30,9 @@ defineQuery(`*[_type == "startup" && defined(slug.current) && !defined($search) 
   image,
   pitch,
 }`);
+
+export const STARTUP_VIEWS_QUERY = defineQuery(`
+  *[_type == "startup" && _id == $id][0]{
+      _id, views
+  }
+`);
