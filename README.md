@@ -15,7 +15,6 @@ PivotPoint is a platform inspired by Y Combinator, designed to connect startup f
 
 - **Frontend**: React.js, Next.js, Tailwind CSS
 - **Backend**: Node.js, Express.js
-- **Database**: MongoDB (with Mongoose for schema definition)
 - **Authentication**: Auth.js (for secure user login and registration), Zod (for schema validation)
 - **Hosting**: Vercel 
 - **CMS**: Sanity.io (for managing content like pitches and categories)
